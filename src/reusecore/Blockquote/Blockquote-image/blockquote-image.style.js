@@ -188,13 +188,17 @@ section.bq-section {
     font-size: 11pt;
     line-height: 1.62em;
     border-radius: 0 0 10px 10px;
+    height: 400px;
 }
 
 .type-two-quote .type-two-quote-meta {
     margin-top: 30px;
     padding-top: 10px;
     border-top: 2px dotted ${props => props.theme.DarkTheme ? "#EEEEEE" : "#777777"};
-
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    left: 20px;
     text-align: center;
 }
 
